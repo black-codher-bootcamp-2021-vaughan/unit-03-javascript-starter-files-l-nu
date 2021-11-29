@@ -1,14 +1,14 @@
 // This is a comment in JavaScript
 // You can see where this file is connected to your HTML in the index.html on line 14
 
-function FutureAge(name, currentage ) {
+function futureAge(name, age ) {
     
-    var FutureAge = currentage + 5 
-    return (name +  " you will be " + FutureAge) 
+   const ageInFiveYears = age + 5 ;
+    return (name +  " you will be " + ageInFiveYears + "in 5 years ") 
 }
 
 
-   console.log(FutureAge("Sam", 20 ) );
+   console.log(futureAge("Sam", 20 ) );
 
 
     
