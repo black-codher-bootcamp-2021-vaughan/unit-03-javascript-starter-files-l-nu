@@ -1,15 +1,18 @@
 // This is a comment in JavaScript
 // You can see where this file is connected to your HTML in the index.html on line 14
-let a = 5;
-const b = 10;
-let c = a + b;
 
-console.log( c );
+function sayHey( ) {
+    console.log("Hey") ;
 
- a = 20;
+}
+function conversation ( ) {
+    sayHey( ) ;
+    console.log("How are you?") ;
+    console.log("Goodbye") ;
+}
 
-console.log( "After a has been updated: " + c );
+conversation( ) ;
 
-c = a + b
 
-console.log("After 'c' has been updated to use the new 'a' value: " + c)
+
+}
