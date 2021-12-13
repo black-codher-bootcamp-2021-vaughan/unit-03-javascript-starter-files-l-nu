@@ -1,15 +1,11 @@
 // ****************************************************TASK 1****************************************************
 
+// Array containing list of animals
+const animals = ['dog', 'cat', 'fox', 'lion', 'eagle', 'zebra'] ;
 
+animals.pop() ; 
 
-
-
-
-
-
-
-
-
+console.log(animals) ;
 
 
 
@@ -18,7 +14,36 @@
 
 
 
+// animals.sort().reverse() ;
 
+// console.log(animals) ;
+
+// const names = ['Jane', 'chloe', 'sam', 'chris', 'kevin', 'timothy', 'dan', 'kelly', 'nay', 'grace'] ;
+
+// names.sort() ;
+
+// console.log(names) ;
+
+// names.sort().reverse() ;
+
+// console.log(names) ;
+
+// const numbers = [5, 325, 67, 100000, 150] ;
+
+// numbers.sort() ;
+
+// console.log(numbers) ;
+
+// What do you think will happen if we call reverse() after the sort() on an 
+// array? e.g. animals.sort().reverse();
+// ● Create an array of 10 names
+// ○ Intentionally put the names in a random order (i.e. not alphabetically)
+// ● Sort the names in ascending order
+// ● Sort the names in descending order
+// ● Commit and push to GitHub
+// ● BONUS - create an array with these numbers - 5, 325, 67, 100000, 150 and 
+// sort them
+// ○ What order do you expect them to be in?
 
 
 
