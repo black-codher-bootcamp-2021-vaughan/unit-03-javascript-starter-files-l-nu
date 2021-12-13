@@ -14,25 +14,25 @@ console.log(animals) ;
 
 
 
-// animals.sort().reverse() ;
+animals.sort().reverse() ;
 
-// console.log(animals) ;
+console.log(animals) ;
 
-// const names = ['Jane', 'chloe', 'sam', 'chris', 'kevin', 'timothy', 'dan', 'kelly', 'nay', 'grace'] ;
+const names = ['Jane', 'chloe', 'sam', 'chris', 'kevin', 'timothy', 'dan', 'kelly', 'nay', 'grace'] ;
 
-// names.sort() ;
+ names.sort() ;
 
-// console.log(names) ;
+console.log(names) ;
 
-// names.sort().reverse() ;
+names.sort().reverse() ;
 
-// console.log(names) ;
+console.log(names) ;
 
-// const numbers = [5, 325, 67, 100000, 150] ;
+const numbers = [5, 325, 67, 100000, 150] ;
 
-// numbers.sort() ;
+numbers.sort() ;
 
-// console.log(numbers) ;
+console.log(numbers) ;
 
 // What do you think will happen if we call reverse() after the sort() on an 
 // array? e.g. animals.sort().reverse();
